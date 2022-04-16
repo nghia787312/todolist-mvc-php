@@ -33,7 +33,7 @@ folder/database/config.php
 
 # Deployment
 Configuring a xampp web server for root directory
-You can change Apaches httpd.conf by clicking (in xampp control panel) apache/conf/httpd.conf and adjust the entries for DocumentRoot and the corresponding Directory todolist-test-php
+You can change Apaches httpd.conf by clicking (in xampp control panel) apache/conf/httpd.conf and adjust the entries for DocumentRoot and the corresponding Directory todolist-mvc-php
 
 # Test
 Run command ./vendor/bin/phpunit

@@ -15,8 +15,8 @@ $(document).ready(function () {
         selectable: true,
         events: events,
         eventRender: function(event, element) {
-            element.find(".fc-event-title").append("<a style='color: unset' onclick=\"return confirm('Are you sure you want to delete this work?');\" href='delete?id="+event.id+"'><i class='ml-3 fa fa-trash'></i></a>");
             element.find(".fc-event-title").append("<a style='color: unset' href='show_edit?id="+event.id+"'><i class='ml-3 fa fa-pencil'></i></a>");
+            element.find(".fc-event-title").append("<a style='color: unset' onclick=\"return confirm('Are you sure you want to delete this work?');\" href='delete?id="+event.id+"'><i class='ml-3 fa fa-trash'></i></a>");
         }
     });
 });
